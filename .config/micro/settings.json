@@ -1,0 +1,12 @@
+{
+    "clipboard": "terminal",
+    "colorcolumn": 80,
+    "diffgutter": true,
+    "ft:python": {
+        "tabsize": 4
+    },
+    "mkparents": true,
+    "rmtrailingws": true,
+    "savecursor": true,
+    "tabsize": 2
+}

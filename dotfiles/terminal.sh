@@ -1,0 +1,2 @@
+# opens windows terminal with some custom settings and multiple panes
+alias tml='cmd.exe /c "wt.exe" -p "wt.exe" \; split-pane -H wsl.exe \; split-pane -H wsl.exe \; new-tab -d c:\\ \; split-pane -H wsl.exe \; split-pane -H wsl.exe'
