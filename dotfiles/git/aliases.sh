@@ -9,7 +9,7 @@ alias gb='git branch'
 alias gs='git status -sb'
 
 alias ga='git add'
-alias gac='git add -A && git commit -m'
+alias gac='git add -A && git commit'
 alias gaf='git add -f'
 
 alias gc='git commit'
