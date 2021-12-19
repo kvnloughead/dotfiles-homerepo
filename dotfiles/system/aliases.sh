@@ -1,12 +1,13 @@
 # convenience
 alias start="explorer.exe"
 alias lsa="ls -a"
+alias cl="clear"
 
 # opens windows terminal with some custom settings and multiple panes
 alias tml='cmd.exe /c "wt.exe" -p "wt.exe" \; split-pane -H wsl.exe \; split-pane -H wsl.exe \; new-tab -d c:\\ \; split-pane -H wsl.exe \; split-pane -H wsl.exe'
 
 # set up pbcopy / pbpaste
-alias clip="clip.exe"  # usage:  ls | clip  or  clip < file.txt   
+alias clip="clip.exe"  # usage:  ls | clip  or  clip < file.txt
 alias pst="powershell.exe -command 'Get-Clipboard' | head -n -1"
 
 # script aliases

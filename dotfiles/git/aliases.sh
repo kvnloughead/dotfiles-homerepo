@@ -10,10 +10,11 @@ alias gs='git status -sb'
 
 alias ga='git add'
 alias gac='git add -A && git commit'
+alias gaca='git add -A && git commit --amend'
 alias gaf='git add -f'
 
 alias gc='git commit'
-alias gca='git commit -A'
+alias gca='git commit --amend'
 
 alias gp='git push origin HEAD'
 
