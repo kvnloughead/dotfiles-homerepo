@@ -129,4 +129,6 @@ for f in ~/dotfiles/system/*.sh; do source $f; done
 for f in ~/dotfiles/practicum/*.sh; do source $f; done
 
 # Load pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
