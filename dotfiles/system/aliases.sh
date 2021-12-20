@@ -14,7 +14,8 @@ alias pst="powershell.exe -command 'Get-Clipboard' | head -n -1"
 alias crc='crc.sh'    # "Create React Component"
 alias cln='python3 ~/bin/command-line-notes/main.py'   # production version
 alias clndv='python3 ~/dev/command-line-notes/main.py -dev' # dev version
-alias gh-new='~/bin/gh-new.sh'
+alias gh-new='~/scripts/gh-new.sh'
+alias bem='~/scripts/bem.sh'
 
 # misc
 alias tree="tree -I node_modules"
