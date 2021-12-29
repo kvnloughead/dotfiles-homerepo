@@ -1,12 +1,15 @@
 alias gp='git pull --prune'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
+alias gs='git status -sb'
+
 # Remove `+` and `-` from start of diff lines; just rely upon color.
 alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r'
 
 alias gco='git checkout'
+alias gsw='git switch'
 alias gb='git branch'
-alias gs='git status -sb'
+alias gm='git merge'
 
 alias ga='git add'
 alias gac='git add -A && git commit'
