@@ -22,3 +22,8 @@ alias pdf2txt='python3 /home/kvnloughead/.local/bin/pdf2txt.py'
 # micro
 alias micro-keybind='micro ~/.config/micro/bindings.json'
 alias micro-settings='micro ~/.config/micro/settings.json'
+
+mkcd() {
+  mkdir $1
+  cd $1
+}
