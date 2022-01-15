@@ -2,6 +2,7 @@
 alias start="explorer.exe"
 alias lsa="ls -a"
 alias cl="clear"
+alias src="source ~/.bashrc"
 
 # opens windows terminal with some custom settings and multiple panes
 alias tml='cmd.exe /c "wt.exe" -p "wt.exe" \; split-pane -H wsl.exe \; split-pane -H wsl.exe \; new-tab -d c:\\ \; split-pane -H wsl.exe \; split-pane -H wsl.exe'
@@ -17,7 +18,6 @@ alias bem='~/scripts/bem.sh'
 
 # misc
 alias tree="tree -I node_modules"
-alias pdf2txt='python3 /home/kvnloughead/.local/bin/pdf2txt.py'
 
 # micro
 alias micro-keybind='micro ~/.config/micro/bindings.json'
