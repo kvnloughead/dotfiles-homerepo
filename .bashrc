@@ -114,8 +114,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# ?
-# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Load environmental variables from Windows
+windows_userdir=`cmd.exe /c "echo %USERPROFILE%" 2> /dev/null | tr -d '\r'`
+windows_userdir=`wslpath "${windows_userdir}"`
 
 # Load nvm
 export NVM_DIR="$HOME/.nvm"
@@ -129,8 +130,10 @@ for f in ~/dotfiles/system/*.sh; do source $f; done
 for f in ~/dotfiles/practicum/*.sh; do source $f; done
 for f in ~/dotfiles/terminal/*.sh; do source $f; done
 for f in ~/dotfiles/vscode/*.sh; do source $f; done
+for f in ~/dotfiles/windows/*.sh; do source $f; done
 
 # Load pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
