@@ -128,8 +128,6 @@ for f in ~/dotfiles/*.sh; do source $f; done
 for f in ~/dotfiles/git/*.sh; do source $f; done
 for f in ~/dotfiles/system/*.sh; do source $f; done
 for f in ~/dotfiles/practicum/*.sh; do source $f; done
-for f in ~/dotfiles/terminal/*.sh; do source $f; done
-for f in ~/dotfiles/vscode/*.sh; do source $f; done
 for f in ~/dotfiles/windows/*.sh; do source $f; done
 
 # Load pyenv

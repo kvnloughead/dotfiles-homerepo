@@ -19,10 +19,9 @@ I haven't figured out how to successfully symlink to config files for Windows pr
 or VSCode. As a workaround, I am storing copies of these config files in my dotfiles repo, and syncing
 them manually with bash functions when necessary. 
 
-1. To update the copies of the configs, run `get_terminal_config`, `get_vscode_config` or `get_all_configs`.
+1. To update the copies of the configs, run `get_terminal_config`, `get_vscode_config` or `get_windows_configs`.
 
-2. To open the relevant config files at their awful Windows file paths, try `code $terminalconfig`, 
-`code $vscodekeybindings` and `code $vscodesettings`.
+2. To push changes out to actual configs, run `set_terminal_config`, `set_vscode_config` or `set_windows_configs`. 
 
-3. If you are pulling in changes from the remote, you have to copy them manually to the Windows config
-locations. 
+3. To open the relevant config files at their awful Windows file paths, try `code $terminalconfig`, `code $vscodekeybindings` and `code $vscodesettings`.
+

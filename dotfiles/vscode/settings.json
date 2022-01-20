@@ -1,7 +1,9 @@
 {
-    "security.workspace.trust.untrustedFiles": "open",
     "emmet.triggerExpansionOnTab": true,
-    "editor.rulers": [80,120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "[javascript]": {
