@@ -3,8 +3,6 @@ source /etc/profile.d/bash_completion.sh
 source ~/dotfiles/autocomplete/watson # watson autocomplete
 
 alias watsib="watson"
-alias watsib="watson"
-alias wa="watson add"
 alias wagg="watson aggregate"
 alias wconf="watson config"
 alias we="watson edit"
@@ -19,3 +17,10 @@ alias wstat="watson status"
 alias wstop="watson stop"
 alias wtags="watson tags"
 alias wl="watson log"
+
+# replacement for `watson add`. Accepts same args as `watson start`. Creates
+# a new task and opens it for editing. More convenient then the alternative.
+wa() {
+  watson start "$@"
+  watson edit
+}
