@@ -10,5 +10,11 @@ rsync \
   --exclude 'practicum/projects' \
   --exclude 'node_modules' \
   --exclude '.npm' \
+  --exclude '.nvm' \
+  --exclude '.vscode-server' \
   --exclude '.pyenv' \
+  --exclude '.cargo' \
+  --exclude '.rustup' \
+  --exclude '.git' \
+  --exclude '.local' \
    /home/kevin/ /mnt/c/Users/kvnlo/OneDrive/wsl2-backups/

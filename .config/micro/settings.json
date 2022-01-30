@@ -1,12 +1,12 @@
 {
-    "autoclose": true,
+		"autoclose": true,
     "autoindent": true,
     "autosave": 0,
     "autosu": true,
     "backup": true,
     "basename": false,
-    "clipboard": "terminal",
     "colorcolumn": 80,
+    "clipboard": "terminal",
     "colorscheme": "default",
     "comment": true,
     "cursorline": true,
@@ -57,6 +57,6 @@
     "syntax": true,
     "tabmovement": false,
     "tabsize": 2,
-    "tabstospaces": false,
+    "tabstospaces": true,
     "useprimary": true
 }
