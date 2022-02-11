@@ -1,9 +1,5 @@
 {
     "emmet.triggerExpansionOnTab": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
     "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "[javascript]": {
@@ -122,5 +118,9 @@
     "editor.minimap.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
     "window.menuBarVisibility": "compact",
-    "security.workspace.trust.untrustedFiles": "open", // Disable scss lint (optional if using scss)
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+    "window.zoomLevel": 1, // Disable scss lint (optional if using scss),
+    // // C formatting settings
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0}", // change c indentation style
 }

@@ -1,9 +1,6 @@
-# Haven't figured out how to symlink with Windows files. Instead, I have copies of the
-# config files stored in ~/dotfiles/program-name. 
+# Haven't figured out how to symlink with Windows files. Instead, I have copies # of the config files stored in ~/dotfiles/program-name. 
 #
-# 1. To open the real versions for editing, `micro $name-of-config`. For some 
-#    reason vscode is insisting on opening them with their windows filepath
-#    in spite of the fact that I have helpfully converted them already.
+# 1. To open the real versions for editing, `editor $name-of-config`
 # 2. To update the copy of the config file, run the relevant getter function
 #
 # When initially setting up a new computer, or any time you want to update the configs
